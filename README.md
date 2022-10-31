@@ -1,4 +1,4 @@
-# Diabetes-Prediction
+# Cardiac Arrest Predictor
 
 ![home](https://user-images.githubusercontent.com/64016811/198942838-0e6e4445-4d29-4f88-ab03-b89460b37bf0.png)
 
