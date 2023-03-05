@@ -3,7 +3,6 @@
 # Import necessary modules
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 from sklearn.tree import DecisionTreeClassifier
 import streamlit as st
 
@@ -57,13 +56,13 @@ def build_lstm(num_units, input_shape):
     # LSTM layer
     lstm_layer = tf.keras.layers.LSTM(num_units, return_sequences=True)(input_layer)
 
-    # Output layer
+     #Output layer
     output_layer = tf.keras.layers.Dense(1, activation='sigmoid')(lstm_layer)
 
-    # Define model
+     #Define model
     model = tf.keras.models.Model(inputs=[input_layer], outputs=[output_layer])
 
-    return model
+    pass
 
 
 
